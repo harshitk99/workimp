@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-size: ; */
+    color: aliceblue;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(13, 14, 14);
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    padding-left: 10%;
+    font-weight: 900;
+    font-size: 20px;
+    position: fixed;
+    z-index: 99;
+    /* color: black; */
+}
+
+
+#titleandcontent{
+    font-size: 29px;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    object-fit: cover;
+    z-index: -1;
+}
+#blacker{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.705);
+    width: 100%;
+    height: 350vh;
+    z-index: -1;
+    opacity: 1;
+}
+
+#page1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin-top: 150px;
+    font-size: 30px;
+}
+
+#heartimg{
+    margin-top: 40px;
+    /* align-items: center; */
+    margin-left: 15%;
+    height: 550px;
+    width: 450px;
+    border-radius: 30px;
+    box-shadow:  1px 1px rgb(255, 115, 0);   
+}
+
+#hide{
+    height: 50px;
+    width: 50px;
+}
+
+  
+      
+
+
+#img1>p{
+    margin-top: 50px;
+    font-size: 40px;
+    
+}
+
+#img2{
+    margin-top: 40px;
+    display: flex;
+    gap: 40px;
+    font-size: 35px;
+
+}
+
+#mirrorselfie{
+    width: 400px;
+    height: 600px;
+    /* box-shadow: 5px 2px 4px white; */
+    mask:
+   radial-gradient(at 70% 31%,#000 29%,#0000 30%),
+   radial-gradient(at 30% 31%,#000 29%,#0000 30%),
+   linear-gradient(#000 0 0) bottom/100% 50% no-repeat;
+  clip-path: polygon(-41% 0,50% 91%, 141% 0);
+}
+
+#mirrorselfie:hover{
+    scale: 1.2;
+    transition: all ease 0.3s;
+}
+
+#page2{
+    height: 100vh;
+    width: 100%;
+    /* background-color: #000; */
+    position: absolute;
+    margin-top: 100%;
+    font-size: 40px;
+}
+
+#audionpara>h3{
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+
+#page2para{
+    margin-top: 90px;
+    font-size: 29px;
+}
+
+
+
